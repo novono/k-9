@@ -30,6 +30,7 @@ dependencies {
     compile 'de.cketti.library.changelog:ckchangelog:1.2.1'
     compile 'com.github.bumptech.glide:glide:3.6.1'
     compile 'com.splitwise:tokenautocomplete:2.0.2'
+    compile "com.android.support:appcompat-v7:${project.supportLibraryVersion}"
 
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
 
@@ -49,7 +50,7 @@ android {
         versionCode 23060
         versionName '5.106'
 
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 22
 
         generatedDensities = ['mdpi', 'hdpi', 'xhdpi']
